@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Build output
+*.dmg
+build/
+
+# Temporary files
+*.swp
+*.swo
