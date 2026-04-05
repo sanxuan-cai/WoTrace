@@ -26,7 +26,7 @@
       margin: 0;
       padding: 0;
     }
-
+    
     body {
       min-height: 100vh;
       font-family: "Noto Serif SC", serif;
@@ -36,7 +36,7 @@
         radial-gradient(circle at top left, rgba(183, 141, 99, 0.12), transparent 28%),
         linear-gradient(180deg, #fbf7f1 0%, #f6f0e7 44%, #f1e8dd 100%);
     }
-
+    
     body::before {
       content: "";
       position: fixed;
@@ -49,39 +49,39 @@
       background-size: 28px 28px;
       mask-image: radial-gradient(circle at center, black 36%, transparent 86%);
     }
-
+    
     a {
       color: inherit;
     }
-
+    
     .page {
       width: min(920px, calc(100% - 28px));
       margin: 0 auto;
       position: relative;
       z-index: 1;
     }
-
+    
     .topbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 28px 0 10px;
     }
-
+    
     .brand {
       display: flex;
       align-items: center;
       gap: 12px;
       text-decoration: none;
     }
-
+    
     .brand img {
       width: 44px;
       height: 44px;
       border-radius: 14px;
       box-shadow: 0 10px 24px rgba(77, 51, 30, 0.12);
     }
-
+    
     .brand strong {
       display: block;
       font-family: "Cormorant Garamond", serif;
@@ -90,7 +90,7 @@
       line-height: 1;
       letter-spacing: 0.04em;
     }
-
+    
     .brand span {
       display: block;
       margin-top: 2px;
@@ -99,12 +99,12 @@
       text-transform: uppercase;
       color: var(--muted);
     }
-
+    
     .topbar nav {
       display: flex;
       gap: 10px;
     }
-
+    
     .nav-link {
       text-decoration: none;
       font-size: 14px;
@@ -115,24 +115,24 @@
       background: rgba(255, 255, 255, 0.42);
       transition: 0.2s ease;
     }
-
+    
     .nav-link:hover,
     .button:hover {
       transform: translateY(-1px);
     }
-
+    
     .hero {
       padding: 58px 0 42px;
       text-align: center;
     }
-
+    
     .hero-version {
       margin-bottom: 18px;
       color: var(--muted);
       font-size: 13px;
       letter-spacing: 0.12em;
     }
-
+    
     h1 {
       font-size: clamp(38px, 6vw, 62px);
       line-height: 1.08;
@@ -141,7 +141,7 @@
       max-width: 12em;
       margin: 0 auto;
     }
-
+    
     .subhead {
       margin-top: 18px;
       max-width: 36em;
@@ -152,7 +152,7 @@
       letter-spacing: -0.02em;
       line-height: 1.7;
     }
-
+    
     .actions {
       display: flex;
       flex-wrap: wrap;
@@ -161,7 +161,7 @@
       align-items: center;
       justify-content: center;
     }
-
+    
     .button {
       display: inline-flex;
       align-items: center;
@@ -175,27 +175,27 @@
       transition: 0.2s ease;
       border: 1px solid transparent;
     }
-
+    
     .button.primary {
       background: var(--accent);
       color: #fffaf3;
       box-shadow: 0 14px 28px rgba(110, 74, 47, 0.16);
     }
-
+    
     .button.secondary {
       border-color: var(--line);
       background: rgba(255, 255, 255, 0.5);
       color: var(--accent);
     }
-
+    
     section {
       padding-top: 46px;
     }
-
+    
     .section-title {
       margin-bottom: 18px;
     }
-
+    
     .section-title small {
       display: block;
       margin-bottom: 8px;
@@ -204,21 +204,21 @@
       text-transform: uppercase;
       font-size: 11px;
     }
-
+    
     .section-title h2 {
       font-size: clamp(28px, 4vw, 40px);
       line-height: 1.18;
       letter-spacing: -0.03em;
       font-weight: 600;
     }
-
+    
     .section-title p {
       margin-top: 10px;
       color: var(--muted);
       max-width: 38em;
       font-size: 16px;
     }
-
+    
     .panel {
       background: var(--paper);
       border: 1px solid var(--line);
@@ -226,11 +226,11 @@
       box-shadow: var(--shadow);
       backdrop-filter: blur(12px);
     }
-
+    
     .video-panel {
       padding: 20px;
     }
-
+    
     video {
       display: block;
       width: 100%;
@@ -238,17 +238,17 @@
       border: 1px solid rgba(110, 74, 47, 0.1);
       background: #000;
     }
-
+    
     .features {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 14px;
     }
-
+    
     .feature {
       padding: 24px;
     }
-
+    
     .feature-media {
       display: block;
       width: 100%;
@@ -261,80 +261,80 @@
       aspect-ratio: 44 / 50;
       cursor: zoom-in;
     }
-
+    
     button.feature-media {
       appearance: none;
     }
-
+    
     .feature-media img {
       display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
-
+    
     .feature h3 {
       font-size: 19px;
       margin-bottom: 10px;
     }
-
+    
     .feature p {
       color: var(--muted);
       font-size: 15px;
     }
-
+    
     .story {
       padding: 28px;
     }
-
+    
     .security {
       padding: 28px;
     }
-
+    
     .security-copy {
       color: var(--muted);
       font-size: 16px;
       margin-bottom: 18px;
     }
-
+    
     .security-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 14px;
     }
-
+    
     .security-step {
       padding: 20px;
       border-radius: 22px;
       border: 1px solid rgba(110, 74, 47, 0.1);
       background: rgba(255, 255, 255, 0.42);
     }
-
+    
     .security-step h3 {
       font-size: 18px;
       margin-bottom: 8px;
     }
-
+    
     .security-step p {
       color: var(--muted);
       font-size: 14px;
     }
-
+    
     .security-step .feature-media {
       margin-top: 14px;
       aspect-ratio: auto;
     }
-
+    
     .story p {
       color: var(--muted);
       font-size: 16px;
       margin-bottom: 14px;
     }
-
+    
     .story p:last-child {
       margin-bottom: 0;
     }
-
+    
     .quote {
       margin: 18px 0;
       padding: 16px 18px;
@@ -343,23 +343,23 @@
       color: var(--accent);
       font-size: 17px;
     }
-
+    
     .footer {
       padding: 52px 0 56px;
       text-align: center;
     }
-
+    
     .footer .actions {
       justify-content: center;
       margin-top: 0;
     }
-
+    
     .footer-note {
       margin-top: 18px;
       color: var(--muted);
       font-size: 13px;
     }
-
+    
     .lightbox {
       position: fixed;
       inset: 0;
@@ -373,12 +373,12 @@
       transition: opacity 0.2s ease, visibility 0.2s ease;
       z-index: 20;
     }
-
+    
     .lightbox.is-open {
       opacity: 1;
       visibility: visible;
     }
-
+    
     .lightbox-dialog {
       position: relative;
       width: min(960px, 100%);
@@ -389,7 +389,7 @@
       border: 1px solid rgba(110, 74, 47, 0.12);
       box-shadow: 0 24px 60px rgba(29, 20, 13, 0.24);
     }
-
+    
     .lightbox-close {
       position: absolute;
       top: 12px;
@@ -404,7 +404,7 @@
       line-height: 1;
       cursor: pointer;
     }
-
+    
     .lightbox img {
       display: block;
       width: 100%;
@@ -412,42 +412,42 @@
       object-fit: contain;
       border-radius: 16px;
     }
-
+    
     @media (max-width: 760px) {
       .topbar {
         flex-direction: column;
         align-items: flex-start;
         gap: 14px;
       }
-
+    
       .topbar nav,
       .actions,
       .meta {
         flex-direction: column;
         align-items: flex-start;
       }
-
+    
       .button,
       .nav-link {
         width: 100%;
       }
-
+    
       .features {
         grid-template-columns: 1fr;
       }
-
+    
       .security-grid {
         grid-template-columns: 1fr;
       }
-
+    
       .hero {
         padding-top: 40px;
       }
-
+    
       .subhead {
         font-size: 19px;
       }
-
+    
       .intro,
       .section-title p,
       .story p {
@@ -476,44 +476,50 @@
     <main>
       <section class="hero">
         <div class="hero-version">macOS 13.0+ · 2026.4.2</div>
-        <h1>提醒思考，维护专注</h1>
-        <p class="subhead">不是记录工具，而是思考工具。蜗迹帮助你在做事时留下当前思路，并在长时间没有进展时提醒你回头看看自己是不是偏了。</p>
+        <h1>蜗迹</h1>
+        <p class="subhead">正确的路径比盲目的专注更加重要</p>
         <div class="actions">
           <a class="button primary" href="https://github.com/sanxuan-cai/WoTrace/releases/download/v2026.04.03-0006/WoTrace-Release.dmg">下载 macOS 版本</a>
           <a class="button secondary" href="https://wj.qq.com/s2/26067052/3aaf/" target="_blank" rel="noreferrer">提交反馈</a>
         </div>
       </section>
-
+    
       <section>
         <div class="section-title">
           <small>Features</small>
           <h2>只做几件核心的事。</h2>
         </div>
         <div class="features">
+        <article class="panel feature">
+            <h3>缕清思路</h3>
+            <p>实现这个目标做哪些事？每个事项遇到了什么问题？准备怎么解决这个问题？
+                </br>
+                <b>执行前将思路捋清楚，走正确的路径</b>
+            </p>
+            <button class="feature-media" type="button" data-lightbox-src="自由记录.png" data-lightbox-alt="自由记录界面">
+                <img src="自由记录.png" alt="自由记录界面">
+            </button>
+        </article>
           <article class="panel feature">
             <h3>智能提醒</h3>
-            <p>不是只有一种提醒。当任务长时间没有进展、当前没有任何事项在执行，或执行时长超过预计时间时，蜗迹都会提醒你停下来想一想：现在是不是偏了，下一步该怎么做。</p>
+              <p>做事的耗时远超预期没有停下思考？一件事做了半天没有进展？干着干着走神去做别的事情?
+                  </br>
+                  <b>恰到好处的提醒，拒绝盲目的专注</b></p>
             <button class="feature-media" type="button" data-lightbox-src="无进展提示.png" data-lightbox-alt="智能提醒界面">
               <img src="无进展提示.png" alt="智能提醒界面">
             </button>
           </article>
-          <article class="panel feature">
-            <h3>自由记录</h3>
-            <p>想到什么就记什么，目标、事项和过程都可以直接编辑。记录本身足够轻，才不会把思路切断。</p>
-            <button class="feature-media" type="button" data-lightbox-src="自由记录.png" data-lightbox-alt="自由记录界面">
-              <img src="自由记录.png" alt="自由记录界面">
-            </button>
-          </article>
+
           <article class="panel feature">
             <h3>执行回顾</h3>
-            <p>做完之后，你可以回看这件事是怎么推进的。它留下的不只是结果，还有过程中的判断和尝试。</p>
+            <p>感觉一天很忙，但是不知道自己在忙什么？想把自己的一天整理下来喂给AI? </br><b>自动记录，分析每一天</b></p>
             <button class="feature-media" type="button" data-lightbox-src="执行回顾.png" data-lightbox-alt="执行回顾界面">
               <img src="执行回顾.png" alt="执行回顾界面">
             </button>
           </article>
         </div>
       </section>
-
+    
       <section id="video">
         <div class="section-title">
           <small>Demo</small>
@@ -524,7 +530,7 @@
           <video src="蜗迹-演示.mp4" controls playsinline poster="download.png"></video>
         </div>
       </section>
-
+    
       <section>
         <div class="section-title">
           <small>Notice</small>
@@ -550,7 +556,7 @@
           </div>
         </div>
       </section>
-
+    
       <section id="story">
         <div class="section-title">
           <small>Story</small>
@@ -564,7 +570,7 @@
         </div>
       </section>
     </main>
-
+    
     <footer class="footer">
       <div class="actions">
         <a class="button primary" href="https://github.com/sanxuan-cai/WoTrace/releases/download/v2026.04.03-0006/WoTrace-Release.dmg">立即下载</a>
@@ -593,7 +599,7 @@
       lightboxImage.src = "";
       lightboxImage.alt = "";
     }
-
+    
     featureMediaButtons.forEach((button) => {
       button.addEventListener("click", () => {
         lightboxImage.src = button.dataset.lightboxSrc;
@@ -602,15 +608,15 @@
         lightbox.setAttribute("aria-hidden", "false");
       });
     });
-
+    
     lightboxClose.addEventListener("click", closeLightbox);
-
+    
     lightbox.addEventListener("click", (event) => {
       if (event.target === lightbox) {
         closeLightbox();
       }
     });
-
+    
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
         closeLightbox();
